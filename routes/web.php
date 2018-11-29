@@ -20,4 +20,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/tape','NewsController@index');
+Route::get('/create','createController@index');
 
